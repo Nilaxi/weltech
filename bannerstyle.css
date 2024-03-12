@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url(/asset/04.jpg);
+    background-size: cover;
+    width: 100%;
+    padding: 50PX 0;
+    min-height: 100vh;
+   
+}
+
+ /* .logo{
+    text-align: left;
+    margin: 15px 20px;
+    padding: 20px;
+ } */
+ .navbar{
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+ }
+ .header{
+    display: flex;
+}
+li{
+    display: inline-block;
+    margin: 70px 20px;
+    padding: 25px;
+    font-size: larger;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.content{
+    width: 100%;
+    margin: auto;
+    padding: 25px;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+h5{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    font-size:50px;
+    padding: 5px;
+}
+p{
+    text-align: center;
+    color:black;
+    padding: 10px;
+    font-size:15px ;
+    margin-bottom: 20px;
+}
+.btn{
+   text-align: center;
+    border: 2px solid black;
+    border-radius: 2px;
+   padding: 10px 15px;
+   font-size: 20px;
+   color:black;
+   cursor: pointer;
+   display: inline-block;
+   background: aliceblue;
+   font-weight: 600;
+  
+}
+.btn:hover{
+   background-color: blue;
+  
+  transition: 0.6s ease-in-out;
+}
+.site{
+    width: 100%;
+    padding-top: 100%;
+}

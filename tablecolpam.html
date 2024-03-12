@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>col-rowspam</title>
+    <style>
+       table, th, td {
+         /* border: 1px double black;  */
+        border-collapse: collapse;
+         border-style:double; 
+        border-radius: 50px;
+        }
+        th,td{
+            border: spacing 5px;
+            padding:5px;
+        }
+        table{
+            border: 5px solid red;
+            padding: 5px;
+        }
+       
+    </style>
+</head>
+<body>
+    <table style="width: 40% ;">
+      
+        <tr>
+          <th colspan="6">Timetable</th>
+        </tr>
+        <tr>
+          <th rowspan="6">hours</th>
+          <th>Mon</th>
+          <th>tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+        </tr>
+        <tr>
+            <td>computer</td>
+            <td>math</td>
+            <td>Computer</td>
+            <td>Math</td>
+            <td>art</td>
+            
+        </tr>  
+        <tr>
+          <td>computer</td>
+          <td>math</td>
+          <td>Computer</td>
+          <td>Math</td>
+          <td>art</td>
+          
+      </tr> 
+        <tr>
+          <th colspan="5">Lunch</th>
+        </tr> 
+        <tr>
+          <td>computer</td>
+          <td>math</td>
+          <td>Computer</td>
+          <td>Math</td>
+          <td rowspan="2">project</td>
+        </tr>
+        <tr>
+          <td>computer</td>
+          <td>math</td>
+          <td>Computer</td>
+          <td>Math</td>
+        </tr>
+    </table> 
+</body>
+</html>

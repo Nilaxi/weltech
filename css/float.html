@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float</title>
+    <style>
+        .fix  {
+        /* box-sizing: border-box; */
+        width: 100%;
+        display: flex;
+      }
+      
+      .img-container {
+        flex-basis: 33.33%;
+        padding: 10px;
+        justify-content: center;
+     
+      }
+      
+      /* .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }  */
+    </style>
+    
+</head>
+<body>
+    <h2>Images Side by Side</h2>
+    <p>Float images side by side:</p>
+
+<div class="fix">
+  <div class="img-container">
+  <img src="r4.jpg" alt="Italy" style="width:100%">
+  </div>
+  <div class="img-container">
+  <img src="t2.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="img-container">
+  <img src="t3.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+</body>
+</html>

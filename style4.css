@@ -1,0 +1,497 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.header{
+    background-image: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(/asset/pbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+} 
+nav{
+    display: flex;
+    justify-items: right;
+    color: white;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.logo img{
+    width: 150px;
+    height: auto;
+    margin: 25px;
+}
+.nav-links{
+   
+    margin: 20px;
+    padding: 10px;
+   
+}
+ .navlinks ul{
+    padding: 20px;
+}
+ .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 25px;
+    text-transform: uppercase;
+
+ }
+
+.content{
+    color: white;
+    text-align: center;
+   
+}
+.content h1{
+    font-size: 55px;
+    margin-top: 40px;
+    padding: 25px;
+    letter-spacing: 3px;
+}
+.content p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 2px;
+   margin-bottom: 50px;
+    color: wheat;
+}
+  .button{
+    border: 2px solid black;
+    background: orange;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 200px;
+}
+.course{
+    margin-top: 100px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 80PX;
+}
+.course h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 15px;
+    padding: 10px;
+}
+.course p{
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 30PX;
+}
+.course-row{
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    text-align: center;
+    margin: 25px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(244, 236, 227);
+    box-shadow: 0 0 5px;
+}
+.course-col h3{
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+.course-col p{
+    font-size: 16px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.campus{
+    margin-top: 100px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 80PX;
+   
+}
+.campus h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 15px;
+    padding: 10px;
+}
+.campus p{
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 30PX;
+}
+.campus h3{
+    font-size: 25px;
+    padding: 3px;
+    margin: 5px;
+}
+.campus-row{
+    display: flex;
+    justify-content: space-between;
+}
+.campus-col{
+    flex-basis: 31%;
+    margin: 25px;
+    text-align: center;
+}
+.campus-col img{
+    width: 400px;
+    height: 300px;
+    margin: 25px;
+    border: 1 px solid grey;
+    border-radius: 5px;
+    outline:  10px black;
+}
+.Facilities{
+    margin-top: 100px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 80PX;
+}
+.Facilities h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 15px;
+    padding: 10px;
+}
+.Facilities p{
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 30PX;
+}
+.fac-row{
+    display: flex;
+    justify-content: space-between;
+}
+.fac-col{
+    flex-basis: 25%;
+    margin: 25px;
+    text-align: center; 
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    background-color: rgb(249, 229, 229);
+}
+.fac-col img{
+    width: 400px;
+    height: 300px;
+    margin: 25px;
+}
+.fac-col h3{
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+.fac-col p{
+    font-size: 16px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.perspective{
+    margin-top: 100px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 80PX;
+}
+.perspective h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 15px;
+    padding: 10px;
+}
+.perspective p{
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 30PX;
+}
+.per-row{
+    display: flex;
+    justify-content: space-between;
+}
+.per-col{
+    flex-basis: 40%;
+    margin: 25px;
+    text-align: center; 
+}
+.footer{
+    margin-top: 100px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 80PX;
+}
+/* .footer h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 15px;
+    padding: 10px;
+}
+.footer p{
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 30PX;
+} */
+.container{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    height: 400px;
+    padding: 30px 0 20px;
+}
+.f-row{
+    display: flex;
+    justify-content: space-between;
+}
+.f-col{
+    text-align: left;
+    padding:10px;
+    margin: 20px;
+    font-size: 15px;
+    line-height: 25px;
+    list-style: none;
+    flex-basis: 20%;
+}
+.f-col ul li{
+    list-style: none;
+}
+.f-col h5{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.icon{
+    font-size: 30px;
+}
+.subheader{
+    background-image: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(/asset/degree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+ .contentt{
+    text-align: center;
+    font-size: 55px;
+    color: white;
+}
+.ABOUT{
+    margin-top: 100px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 80PX; 
+    overflow: hidden;
+}
+.ABOUT .row{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 25px;
+}
+.ABOUT .ABOUT-COL{
+    font-size: 16px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+   font-family: 'Times New Roman', Times, serif;
+   flex-basis: 48%;
+  
+}
+.ABOUT .ABOUT-COL img{
+    width: 100%;
+    padding: 5px;
+    margin: 25px;
+}
+.ABOUT .ABOUT-COL h2{
+    font-size: 45px;
+    padding: 5px;
+    margin: 10px;
+    color: orangered;
+}
+.ABOUT .ABOUT-COL p{
+    font-size: 20px;
+    text-indent: 100px;
+    word-break: break-all;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.footer .container h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 15px;
+    padding: 10px;
+}
+.course{
+    margin-top: 100px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 80PX;
+}
+.course h2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 25px;
+    padding: 5px;
+}
+.course p{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 40PX;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+   margin-bottom: 35px;
+}
+.c-col{
+   flex-basis: 27%;
+   text-align: center;
+   
+}
+.c-col img{
+    width: 100%;
+    height: 300px;
+}
+.c-col h4{
+    font-size: 30px;
+    margin: 5px;
+}
+.c-col p{
+    font-size: 16px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.course-col{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(244, 236, 227);
+    box-shadow: 0 0 5px;
+    flex-basis: 27%;
+    margin-top: 30px;
+}
+.course-col h3{
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+.course-col p{
+    font-size: 16px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.blog-content{
+    margin-top: 100px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 80PX;
+}
+.blog-content .row{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+.blog-left{
+    flex-basis: 60%;
+    text-align: left;
+}
+.blog-left img{
+    width: 100%;
+    padding: 10px;
+}
+.blog-left h2{
+    text-align: center;
+    font-size: 35px;
+    margin: 20px;
+}
+.blog-left p{
+    margin-bottom: 35px;
+}
+.blog-right{
+    flex-basis: 32%;
+    margin: 25px;
+ }
+.blog-right h4{
+    border: 1px solid black;
+    padding: 8px;
+    background-color: #fa1111;
+    font-size: 20px;
+    color: white;
+}
+.blog-right div{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 10px;
+    
+}
+.contactus{
+    margin-top: 100px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 80PX;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.concol{
+    flex-basis: 40%;
+    justify-content: space-between;
+}
+.map{
+    margin: 50px;
+    text-align: left;
+}
+form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    border-radius: 10px;
+    padding:25px;
+    margin: 50px;
+
+}
+
+form h3{
+    font-size: 25px;
+    padding: 5px;
+    border: none;
+    background-color: orangered;
+    border-radius: 10px;
+   
+    text-align: center;
+}
+

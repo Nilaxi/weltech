@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    Form {
+      font-size: xx-large;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Text input fields</h2>
+  <form action="./about1.html">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" placeholder="Enter first name"><br>
+    <label>Last name:</label><br>
+    <input type="text" id="lname" name="lname" placeholder="Enter Last namae">
+    <input type="button" value="submit" id="test">
+  </form>
+  <h2>Radio Buttons</h2>
+  <p>Choose your favorite Web language:</p>
+
+  <form>
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">HTML</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">CSS</label><br>
+      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+      <label for="javascript">JavaScript</label>
+    <input type="checkbox" id="hobbies" name="hobbies" value="Dancing">
+    <label>Dancing</label>
+    <input type="checkbox" id="hobbies" name="hobbies" value="Reading">
+    <label>Reading</label>
+    <input type="checkbox" id="hobbies" name="hobbies" value="Travelling">
+    <label>Travelling</label>
+    <input type="checkbox" id="hobbies" name="hobbies" value="Cricket">
+    <label>Cricket</label>
+    <br>
+    <br>
+  </form>
+  <!-- Button Element -->
+  <button type="submit" onclick="alert('error')">Click me</button>
+  <br>
+  <br>
+  <!-- Feildset Element-->
+
+  <form>
+    <fieldset>
+      <legend>Profile</legend>
+      <label For="Name"> First name</label>
+      <input type="text" id="fname" name="fname" Value="Name">
+      <br>
+      <br>
+      <label for="Age">Age</label>
+      <input type="number" id="age" name="fname" value="Age">
+      <br>
+      <br>
+      <input type="submit" value="Submit">
+      <br>
+      <br>
+    </fieldset>
+  </form>
+  <br>
+  <br>
+  <br>
+  <!-- Datalist Element -->
+  <h2>Datalist Element:</h2>
+  <form>
+    <input list="browers" name="browers">
+    <datalist id="browers">
+      <option value="Firefox"></option>
+      <option value="Chrome">
+      <option value="Opera">
+      <option value="Safari">
+    </datalist>
+    <br>
+    <br>
+    </datalist>
+    <input type="Submit" value="Submit">
+  </form>
+  <hr>
+  <br>
+  <br>
+  <br>
+  <form>
+    <!-- Input type Date -->
+    <lable for="Birthday">Birthday</lable>
+    <input type="date" name="bdate" id="bdate" Value="Birthday">
+    <br>
+    <br>
+  </form>
+  <br>
+  <hr>
+  <br>
+  <!--For Colour -->
+  <form>
+    <lable for="Favcolour">Select your favorite colour:</lable>
+    <input type="color" id="Favcolour" name="Favcolour" value="Favcolour">
+    <br>
+    <br>
+    <input type="submit" value="submit">
+    <br>
+  </form>
+  <br>
+  <hr>
+  <br>
+  <!-- Reset Button -->
+  <form>
+    <label For="fName"> First Name</label>
+    <input type="text" id="fname" name="fname">
+    <br>
+    <br>
+    <label For="lname"> Last Name</label>
+    <input type="text" id="fname" name="fname" Value="lname">
+    <br>
+    <br>
+    <input type="Submit" value="Submit">
+    <input type="Submit" value="Reset">
+  </form>
+  <br>
+  <br>
+  <hr>
+  <!-- For Email -->
+  <form>
+    <label for="Emial">Enter your Email:</label>
+    <input type="emial" id="email" name="email">
+    <input type="submit" value="Submit">
+    <br>
+    <br>
+  </form>
+  <br>
+  <hr>
+  <!-- for local time -->
+  <form>
+    <label for="Birthday">Birthday(time and date)</label>
+    <input type="datetime-local" id="birthday" name="birthday">
+    <br>
+    <br>
+    <input type="submit" value="submit">
+    <br>
+    <br>
+  </form>
+  <br>
+  <hr>
+  <!-- For Atteach file -->
+  <form>
+    <label for="myfile">Select your file</label>
+    <input type="file" id="myfile" name="myfile">
+    <br>
+    <br>
+    <input type="submit" value="submit">
+  </form>
+  <br>
+  <hr>
+  <!-- for hidden  Feild -->
+  <form>
+    <label for="First Name">Name</label>
+    <input type="text" id="fname" name="lname">
+    <input type="hidden" id="id" name="id" value="1234">
+    <br>
+    <input type="submit" value="submit">
+  </form>
+  <br>
+  <hr>
+  <!-- Month Feild -->
+  <form>
+    <label for="birthdaymonth">Birthday month(month and year):</label>
+    <input type="month" id="birthdaymonth" name="birthdaymonth">
+    <br>
+    <input type="Submit" value="Submit">
+  </form>
+  <br>
+  <hr>
+  <!-- Nemeric Step -->
+  <form>
+    <lable for="Quantity">Quantity:</lable>
+    <input type="number" id="Qty" name="Qty" min="2" max="10">
+    <br>
+    <input type="Submit" value="Submit">
+  </form>
+  <hr>
+  <!-- Range Feild -->
+  <label for="Volume">Volume</label>
+  <input type="range" id="vol" name="vol" min="0" max="100">
+  <br>
+  <br>
+  <input type="Submit" value="Submit">
+  <br>
+  <hr>
+  <form>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="fname">
+    <br>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lname">
+    <br>
+    <br>
+    <input type="image" src="/asset/aero1.jpg" alt="areo" width="42" height="42">
+  </form>
+  <br>
+  <hr>
+</body>
+
+</html>

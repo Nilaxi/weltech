@@ -1,0 +1,585 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background-image: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(/asset/pbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 100%;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+   float: left;
+   width: 200px;
+   height: 75px;
+}
+.logo{
+    color: orangered;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.info{
+    width: 700px;
+    float: left;
+    height: 70px;
+    text-align: center;
+    margin-left: 200px;
+    }
+.info ul{
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+.info ul li{
+        margin-left: 65px;
+        margin-top: 27px;
+        list-style: none;
+       
+}
+.info ul li a{
+    color:white;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial;
+    transition: 0.4s ease-in-out;
+}
+.info ul li a:hover{
+    color: orangered;
+}
+.search{
+    width: 450px;
+    float: left;
+    margin-left: 370PX;
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    color: aliceblue;
+    border: 1px solid orangered;
+    margin-top: 15px;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius:5px ;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orangered;
+    border: 2px solid orangered;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius:5px ;
+    margin-top: 15px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 100%;
+    height: auto;
+    color: white;
+    margin: auto;
+    position: relative;
+}
+.content .par{
+    padding-left: 100px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left:100px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content .cn{
+      width: 160px;
+     height: 40px; 
+     background: orangered;
+     border: none;
+     margin-bottom: 10px;
+     margin-left: 100px;
+     font-size: 15px;
+     border-radius: 10px;
+     cursor: pointer;
+     padding:10px;
+     transition: 0.4s ease;
+    
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}
+.cn:hover{
+    background: white;
+
+}
+.content span{
+    color: orangered;
+    font-size: 60px;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top:-20px;
+    left: 1400px;
+    border-radius: 10px;
+    padding:25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orangered;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom:1px solid orangered;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: orangered;
+    border:none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: white;
+    color: orange;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color:orangered;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+ .icon{
+    width: 240px;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 5px;
+    justify-content: space-between;
+    cursor: pointer;
+    /* position:absolute; */
+    transition: 0.4s ease;
+   
+} 
+.footer{
+    width: 100%;
+    background-color: black;
+    font-size: 14px;
+    padding:60px 0 20px;
+    color: aliceblue;
+   
+}
+.footer h4{
+    color: orangered;
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.row{
+    display: flex;
+}
+.f-col-1{
+    width: 33%;
+    text-align: center;
+}
+.list{
+    margin-left: 80px;
+    font-size: 15px;
+    font-family: arial;
+    padding: 10px;
+    margin: 10px;
+}
+.list ul{
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 35px;
+    font-family: arial;
+}
+.f-col-2 {
+    width: 33%;
+    text-align: center;
+}
+.f-col-2 p{
+    margin: 5px;
+    font-size: 15px;
+    margin-left: 55px;
+    padding: 5px;
+    font-family: arial;
+}
+.f-col-3{
+    width: 33%;
+    text-align: center;
+}
+.f-col-3 address{
+    font-size: 15px;
+padding: 5px;
+margin: 0;
+text-align: center;
+margin-left: 70px;
+
+}
+.f-col-3 p{
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    margin-left: 70px;  
+    font-family: arial;
+}
+.footer h1{
+    text-align: center;
+font-size: 30px;
+color: orangered;
+padding: 10px;
+}
+.footer p{
+    font-size: 17px;
+    text-align: center;
+   
+}
+.footer .icons{
+   font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.aboutme{
+    width: 100%;
+    background-color:white;
+    padding-top: 100px;
+} 
+.aboutme h1{
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+    color: orangered;
+}
+.aboutme p{
+    text-align: center;
+    font-size: 17px;
+    font-family: arial;
+    padding: 35px;
+}
+ .row{
+    display: flex;
+    /* width: 80%; */
+    margin-left: 100px;
+    text-align: center;
+    height: auto;
+
+}
+.a-col-1{
+    flex-basis: 33%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    
+}
+.a-col-1 img{
+    width: 50%;
+    height: 213px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.a-col-1 p{
+    text-align: left;
+    padding-bottom: 70px;
+    font-size: 17px;
+    font-family:sans-serif;
+}
+.aboutus{
+    width: 100%;
+    background-image: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(/asset/pbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+.aboutus h1{
+    color: orangered;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 100px;
+}
+.topcourse{
+    width: 100%;
+    margin-top: 60px;
+}
+.top-1{
+    flex-basis: 15%;
+    padding:10px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+}
+.top-1 img{
+    width: 400px;
+    border-radius: 10px;
+    margin: 15px;
+    height: 300px;
+}
+.topcourse .row{
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+.topcourse p{
+    text-align: left;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.top-1 h3{
+    color: orangered;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:5px;
+    margin: 5px;
+}
+.top-1 p{
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.page--btn span{
+    
+        display: inline-block;
+        border: 1px solid black;
+        margin:10px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+        background-color: orangered;
+    }
+    .page--btn span:hover{
+        background:white;
+        color: orangered;
+    }
+    /* service */
+.service{
+    width: 100%;
+    background-image: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(/asset/pbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+.service h1{
+    color: orangered;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 100px;
+}
+/* about us page */
+
+.ab h2{
+    text-align: center;
+    font-size: 17px;
+    font-family: arial;
+    padding: 35px;
+}
+.ab p{
+    text-align: center;
+    font-size: 17px;
+    font-family: arial;
+    padding: 10px;
+}
+.aboutme h1{
+    color: orangered;
+    text-align: center;
+    font-size: 55px;
+}
+.row1{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    margin:20px;
+    justify-content: center;
+}
+.s-col-1{
+    flex-basis: 20%;
+    /* justify-content: center; */
+    max-width: 20%;
+    text-align: center;
+    border:1px solid black;
+    padding:5px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px peachpuff;
+}
+
+    
+
+.s-col-1 h2{
+    color: orangered;
+
+}
+.aboutme{
+width: 100%;
+background-color: white;
+padding-top: 100px;
+margin-bottom: 50px;
+padding-bottom: 20px;
+}
+
+.company{
+    width: 100%;
+    background-color: white;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+.company h3{
+    text-align: center;
+    font-size: 30px;
+    color: orangered;
+    padding: 5px;
+}
+.row2{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    margin:20px;
+    /* justify-content: center; */
+    }
+.c-1 img {
+    flex-basis: 25%;
+    justify-content: center;
+    text-align: center;
+     padding: 10px;
+    margin: 20px;
+    max-width: 15%;
+    padding-top: 50px;
+   }
+.design{
+    width: 100%;
+    padding-top: 100px;
+    margin-bottom: 50px;
+   
+}
+.row3{
+    display: flex;
+    width: 100%;
+    /* text-align: center; */
+    margin:20px;
+    box-sizing: border-box;
+   
+ } 
+ 
+ 
+  .d-col img{
+     flex-basis: 20%;
+    justify-content: center;
+    max-width: 33%; 
+    width: 400px;
+    border:2px solid orangered;
+    border-radius: 10px;
+    border-width: 15px;
+ }
+ .d-col{
+    flex-basis: 33%;  
+    justify-content: center;
+    max-width: 33%;
+    margin: 15px;
+    padding: 10px;
+} 
+.btn-2{
+     
+        padding: 10px;
+        margin: 5px;
+       
+        border: none;
+        width: 150px;
+        color: white;
+        background: orangered;
+        border-radius: 5px;
+      
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+}
+.btn-2:hover{
+    background-color: rgb(247, 121, 121);
+    color: black;
+}
+.design h3{
+     text-align: center;
+     font-size: 50px;
+     color: orangered;
+     margin: 15px;
+     padding: 5px;
+}
+.design p{
+    text-align: center;
+    font-size: 17px;
+}

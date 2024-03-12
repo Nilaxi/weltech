@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table{
+          border-collapse: collapse;
+          width: 100%;
+        }
+        th, td {
+          border: 1px solid black;
+          border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+  <h1>Simple Table</h1>
+     <table style="width:30%; ">
+        <tr>
+            <th>company</th>
+            <th>contect</th>
+            <th>country</th>
+        </tr>
+        <tr>
+            <td>l&t</td>
+            <td>6699884488</td>
+            <td>India</td>
+        </tr>
+        <tr>
+            <td>TCS</td>
+            <td>9582468571</td>
+            <td>India</td>
+
+        </tr>
+        <tr>
+            <td>TATA</td>
+            <td>9898787822</td>
+            <td>India</td>
+            </tr>
+    </table> 
+    <p>test</p>
+    <br>
+    <h1>Width n Height </h1>
+    <table style="width:30%">
+        <tr>
+          <th >Firstname</th>
+          <th >Lastname</th> 
+          <th >Age</th>
+        </tr>
+        <tr style="height: 50px;">
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr style="height: 20px;">
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>80</td>
+        </tr>
+        <br>
+     </table>
+      <br>
+      <h1>table border</h1>
+      <table style="width: 100%px; border: 5 ;">
+        <tr>
+          <th>name</th>
+          <th>subject</th>
+          <th>marks</th>
+        </tr>
+          <tr>
+              <td>dia</td>
+              <td>maths</td>
+              <td>89</td>
+          </tr>
+         <tr>
+           <td>tia</td>
+            <td>english</td>
+            <td>85</td>
+        </tr>
+          <tr>
+            <td>priya</td>
+            <td>Account</td>
+            <td>95</td>
+          </tr>
+      </table>
+</body>
+<h1>specing and padding</h1>
+-For specing
+table 
+  border-spacing: 10px;
+  <br>
+-For Padding
+th, td {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 40px;
+}
+<br>
+<h1>rowspaning</h1>
+<table style="width: 10%;">
+  <tbody>
+    <tr>
+      <th>NAme</th>
+      <th>subject</th>
+      <th>Marks</th>
+    </tr>
+  <tr>
+      <td rowspan="2">marks sn</td>
+      <td>English</td>
+      <td>67</td>
+  </tr>
+  <tr>
+      <td>Science</td>
+      <td>55</td>
+  </tr> 
+  </tbody>
+  </table>
+  <br>
+  <h1>colspaning</h1>
+  <table style="width:0%">
+    <tr>
+       <th colspan="3">Name</th>
+    </tr>
+     <tr>
+       <td>Jill</td>
+       <td>Smith</td>
+       <td>43</td>
+     </tr>
+     <tr>
+       <td>Eve</td>
+       <td>Jackson</td>
+       <td>57</td>
+     </tr>
+     </table>
+   
+   
+</html>
+
+

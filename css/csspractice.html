@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>css practice</title>
+ 
+    
+
+    <style>
+      
+        /* display inline property */
+      li{
+          display: inline-block;
+      }
+      /* display span property */
+      span{
+        display: block;
+      }
+      /* display black property */
+      a{
+        display: block;
+      }
+      /* display visible property */
+      h2.ab{
+        visibility: visible;
+      }
+      /* display hidden property */
+      h2.b{
+        visibility: hidden;
+      }
+      /* max-width property */
+      div.x{
+        width: 500px;
+        margin: auto;
+        border: 3px solid red;
+      }
+      div.y{
+        max-width: 500px;
+        margin: auto;
+        border: 3px solid green;
+      }
+         position property 
+        /* p{
+        position: static;
+        border: 3px solid green; 
+         
+      }   */
+      .two{
+        position: relative; 
+        left: 30px;
+        border: 3px solid green;
+        
+      }
+      .three{
+      position: fixed;
+       bottom:0;
+       right:0;
+       width: 300px;
+        border: 3px solid green;
+      }
+      .relative{
+        position: relative;
+        width: 400px;
+        height: 200px;
+        border: 3px solid green;
+      }
+      .absolute{
+        position: absolute;
+        top:80px;
+        right:20px;
+        width: 200px;
+        height: 100px;
+        border: 3px solid green;
+      }
+      .sticky{
+        position: sticky;
+        top:0;
+        padding: 5px;
+        background-color: aquamarine;
+        border: 3px solid green;
+      }
+      /* image text property */
+      .container{
+        position: relative;
+      }
+      .topleft{
+        top:8px;
+        left:16px;
+        padding:5px;
+        position: absolute;
+        font-size: larger;
+      }
+      img{
+        width: 100%;
+        height: auto;
+        opacity: 0.3;
+      }
+      .topright{
+        top:8px;
+        right:16px;
+        padding:5px;
+        position: absolute;
+        font-size: larger;
+      }
+      .bottomleft{
+        bottom:30px;
+        left:16px;
+        position: absolute;
+        font-size: larger;
+      }
+      .bottomright{
+        bottom:30px;
+        right:16px;
+        position: absolute;
+        font-size: larger;
+      }
+      .center{
+        top:50%;
+        position: absolute;
+        font-size: larger;
+        width: 100%;
+        text-align: center;
+      
+      }
+      /* CSS links */
+      a{
+        color: hotpink;
+        text-decoration: none;
+        background-color: aqua;
+      }
+      a:link{
+        color: red;
+        text-decoration: none;
+        background-color: cornflowerblue;
+      }
+      a:visited{
+        color: green;
+        text-decoration: underline;
+        background-color: yellow;
+      }
+      a:hover{
+        color:blue;
+        text-decoration: underline;
+        background-color: darkolivegreen;
+      }
+      a:active{
+        color: blueviolet;
+        background-color: hotpink;
+      }
+      /* z index property */
+      .container{
+        position: relative;
+      }
+      .blackbox{
+        width: 200px;
+        height: 65px;
+        position: absolute;
+        border:2px solid black;
+        z-index: -1;
+      }
+      .greenbox{
+        width: 150px;
+        height: 45px;
+        position: absolute;
+        border:2px solid red;
+        z-index: 1;
+      }
+      .greybox{
+        width: 250px;
+        height: 40px;
+        position: absolute;
+        z-index: -3;
+       border:2px solid grey;
+      }
+      /* overflow property */
+      div{
+        background-color: aqua;
+        width: 200px;
+        height: 63px;
+        border: 1px solid;
+        overflow: auto;
+      }
+
+      
+
+      /*  for out line */
+         /* div{
+          background-color: grey;
+          border: 3px solid black;
+         border-radius: 20px;
+          padding:10px;
+          margin: 15px;
+          width: 300px;
+          height: 200px;
+          Outline: 7px solid red;
+          
+        } */
+          
+          
+       /* body{
+            Background image property
+            font-size: x-large;
+            background-image: url(/tree.jpg);
+            background-repeat:no-repeat;
+            background-position:left top;
+            background-attachment:scroll;
+            
+        }
+        /* border property */
+        /* p.dotted {border-style: dotted;}
+        p.dashed {border-style: dashed;}
+        p.solid {border-style: solid;}
+        p.double {border-style: double;}
+        p.groove {border-style: groove;}
+        p.ridge {border-style: ridge;}
+        p.inset {border-style: inset;}
+        p.outset {border-style: outset;}
+        p.none {border-style: none;}
+        p.hidden {border-style: hidden;}
+        p.mix {border-style: dotted dashed solid double;}*/ */
+        /* p.one {
+  border-style: solid;
+  border-width: 5px; */
+}
+/* border Width */
+/* p.two {
+  border-style: solid;
+  border-width: medium;
+}
+
+p.three {
+  border-style: dotted;
+  border-width: 2px;
+}
+
+p.four {
+  border-style: dotted;
+  border-width: thick;
+}
+
+p.five {
+  border-style: double;
+  border-width: 15px;
+}
+
+p.six {
+  border-style: double;
+  border-width: thick;
+} */
+/* border colour */
+/* p.one {
+  border-style: solid;
+  border-color: red;
+}
+
+p.two {
+  border-style: solid;
+  border-color: green;
+} 
+
+p.three {
+  border-style: dotted;
+  border-color: blue;
+}  */
+    </style>
+</head>
+<body>
+  <!-- Backgrounf image Property -->
+ <!-- <h2>Background Image:</h2>
+ <br>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quae sequi nesciunt pariatur, temporibus vitae! Perferendis voluptate architecto consequatur doloremque veniam velit, corporis voluptas ad optio iure omnis reprehenderit ea.
+ </p>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quae sequi nesciunt pariatur, temporibus vitae! Perferendis voluptate architecto consequatur doloremque veniam velit, corporis voluptas ad optio iure omnis reprehenderit ea.
+</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quae sequi nesciunt pariatur, temporibus vitae! Perferendis voluptate architecto consequatur doloremque veniam velit, corporis voluptas ad optio iure omnis reprehenderit ea.
+</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quae sequi nesciunt pariatur, temporibus vitae! Perferendis voluptate architecto consequatur doloremque veniam velit, corporis voluptas ad optio iure omnis reprehenderit ea.
+</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quae sequi nesciunt pariatur, temporibus vitae! Perferendis voluptate architecto consequatur doloremque veniam velit, corporis voluptas ad optio iure omnis reprehenderit ea.
+</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quae sequi nesciunt pariatur, temporibus vitae! Perferendis voluptate architecto consequatur doloremque veniam velit, corporis voluptas ad optio iure omnis reprehenderit ea.
+</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quae sequi nesciunt pariatur, temporibus vitae! Perferendis voluptate architecto consequatur doloremque veniam velit, corporis voluptas ad optio iure omnis reprehenderit ea.
+</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quae sequi nesciunt pariatur, temporibus vitae! Perferendis voluptate architecto consequatur doloremque veniam velit, corporis voluptas ad optio iure omnis reprehenderit ea.
+</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quae sequi nesciunt pariatur, temporibus vitae! Perferendis voluptate architecto consequatur doloremque veniam velit, corporis voluptas ad optio iure omnis reprehenderit ea.
+</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quae sequi nesciunt pariatur, temporibus vitae! Perferendis voluptate architecto consequatur doloremque veniam velit, corporis voluptas ad optio iure omnis reprehenderit ea.
+</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quae sequi nesciunt pariatur, temporibus vitae! Perferendis voluptate architecto consequatur doloremque veniam velit, corporis voluptas ad optio iure omnis reprehenderit ea.
+</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quae sequi nesciunt pariatur, temporibus vitae! Perferendis voluptate architecto consequatur doloremque veniam velit, corporis voluptas ad optio iure omnis reprehenderit ea.
+</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quae sequi nesciunt pariatur, temporibus vitae! Perferendis voluptate architecto consequatur doloremque veniam velit, corporis voluptas ad optio iure omnis reprehenderit ea.
+</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quae sequi nesciunt pariatur, temporibus vitae! Perferendis voluptate architecto consequatur doloremque veniam velit, corporis voluptas ad optio iure omnis reprehenderit ea.
+</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quae sequi nesciunt pariatur, temporibus vitae! Perferendis voluptate architecto consequatur doloremque veniam velit, corporis voluptas ad optio iure omnis reprehenderit ea.
+</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quae sequi nesciunt pariatur, temporibus vitae! Perferendis voluptate architecto consequatur doloremque veniam velit, corporis voluptas ad optio iure omnis reprehenderit ea.
+</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quae sequi nesciunt pariatur, temporibus vitae! Perferendis voluptate architecto consequatur doloremque veniam velit, corporis voluptas ad optio iure omnis reprehenderit ea.
+</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quae sequi nesciunt pariatur, temporibus vitae! Perferendis voluptate architecto consequatur doloremque veniam velit, corporis voluptas ad optio iure omnis reprehenderit ea.
+</p>
+<br>
+<br>
+<hr>
+
+<!-- CSS border -->
+<!-- <h2>The border-style Property</h2>
+<p>This property specifies what kind of border to display:</p>
+
+<p class=" dotted">A dotted border.</p>
+  <p class="dashed">A dashed border.</p>
+  <p class="solid">A solid border.</p>
+  <p class="double">A double border.</p>
+  <p class="groove">A groove border.</p>
+  <p class="ridge">A ridge border.</p>
+  <p class="inset">An inset border.</p>
+  <p class="outset">An outset border.</p>
+  <p class="none">No border.</p>
+  <p class="hidden">A hidden border.</p>
+  <p class="mix">A mixed border.</p>
+  <br>
+  <hr>
+  <!-- Border Width -->
+
+  <!-- <h2>The border-width Property</h2>
+<p>This property specifies the width of the four borders:</p>
+
+<p class="one">Some text.</p>
+<p class="two">Some text.</p>
+<p class="three">Some text.</p>
+<p class="four">Some text.</p>
+<p class="five">Some text.</p>
+<p class="six">Some text.</p>
+<br>
+<br>
+<hr> -->
+  <!-- border colour -->
+  <!-- <h2>The border-color Property</h2>
+<p>This property specifies the color of the four borders:</p>
+
+<p class="one">A solid red border</p>
+<p class="two">A solid green border</p>
+<p class="three">A dotted blue border</p>
+
+<p><b>Note:</b> The "border-color" property does not work if it is used alone. Use the "border-style" property to set the borders first.</p>  -->
+
+  <h3>Box Model </h3>
+  <div>
+    ipsum dolor sit amet consectetur<br>
+    adipisicing elit. Cupiditate eum <br>
+    molestiae ipsa tempore! Eos harum <br>
+    dignissimos optio debitis quis! Perferendi<br>
+    omnis facilitity</div>
+
+  <h3>Outline</h3>
+  <div>
+    <h1>Acedamy essay </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, aliquid quam distinctio voluptate libero est id quod
+      beatae cumque quibusdam assumenda ullam adipisci quidem debitis, earum fugiat nemo accusantium optio. Doloremque,
+      corrupti.
+    </p>
+  </div>
+  <!-- Display Property -->
+
+  <ul>
+    <li>abc</li>
+    <li>abc</li>
+    <li>abc</li>
+  </ul>
+  <br>
+  <hr>
+  <h1>This is Header</h1>
+  <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</span><span>Lorem ipsum dolor sit amet consectetur,
+    adipisicing elit. </span>Illo quasi obcaecati cupiditate aperiam. Accusantium quia, necessitatibus voluptatem,
+  laudantium reiciendis<span> fuga obcaecati dolorem deserunt pariatur voluptas temporibus sequi consequatur suscipit!
+    Vero, dolores perspiciatis.</span>
+  <br>
+  <hr>
+  <h1>Display link as block element</h1>
+  <a href="/csscourse.html" target="_blank">CSS</a>
+  <br>
+  <br>
+  <hr>
+  <!-- Visibility Property -->
+  <h1>This is header</h1>
+  <h2 class="ab">this is visible property</h1>
+    <h2 class="b">this is visible property</h1>
+      <br>
+      <hr>
+      <!-- Max-width property -->
+      <h1>MAx-widht property</h1>
+      <div class="x">this div element has width:500px</div>
+      <br>
+      <div class="y">this div element has width:500px</div>
+      <!-- position property -->
+      <h3>Static position</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consequatur ipsum harum nemo! Praesentium
+        deleniti non eum id maiores, cumque eligendi, blanditiis error necessitatibus quo sint a! Ea unde aspernatur
+        illum temporibus!
+      </p>
+      <h3>relative</h3>
+      <p class="two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid optio sit ad repellat atque nobis
+        alias, vel amet sed repellendus blanditiis dolores accusamus labore recusandae aperiam cumque. Dignissimos
+        debitis excepturi adipisci a.</p>
+      <h3>Fixed</h3>
+      <p class="three">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias perspiciatis cum ea ipsa
+        labore harum eaque sint corrupti quod. Omnis consequuntur, officiis laudantium corrupti illum aspernatur
+        corporis! Sit fugit nulla accusamus recusandae!</p>
+      <h3>absolute</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis earum pariatur aliquam minus. Quidem nemo ab
+        soluta quo, quaerat maxime ipsa blanditiis minima pariatur amet adipisci similique exercitationem non, molestiae
+        doloribus magni.</p>
+      <div class="relative">this div element has position relative
+        <div class="absolute">this div element has position absolute </div>
+        <h3>sticky</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, optio!</p>
+
+        <div class="sticky">I am Sticky</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod adipisci neque cupiditate nulla labore commodi
+          tempore maxime molestias eligendi nesciunt.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid nostrum aspernatur labore, praesentium
+          laborum minus voluptates ea aperiam ratione, excepturi magni numquam mollitia natus placeat? Ex unde debitis
+          perferendis perspiciatis voluptate. Quae.</p>
+
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <hr>
+      <!-- image text property -->
+      <h2>Image text property</h2>
+      <p>Add some text to an image in the topleft corner</p>
+      <div class="container">
+        <img src="/tree.jpg" width="1000px" height="400px">
+        <div class="topleft">top left</div>
+        <div class="topright">top right</div>
+        <div class="bottomleft">bottom left</div>
+        <div class="bottomright">bottom left</div>
+        <div class="center">center</div>
+      </div>
+      <br>
+      <br>
+      <hr>
+<!-- CSS Links -->
+  <h3>CSS links</h3>
+     <a href="idea.html">This is link</a>
+     <br>
+     <br>
+     <hr>
+     <!-- Z index property -->
+     <h3>Z Index property</h3>
+     <div class="container">
+     <div class="blackbox"></div>
+     <div class="greenbox"></div>
+     <div class="greybox"></div>
+    </div>
+    <br>
+    <br>
+    <hr>
+    <!-- Overflow property -->
+    <h3>Overflow Property</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut eum nihil dolorum facere saepe libero illo delectus, praesentium sit. Fuga recusandae in similique velit eum, veniam eveniet earum consectetur eaque maxime? Assumenda.</p>
+    <div>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut eum nihil dolorum facere saepe libero illo delectus, praesentium sit. Fuga recusandae in similique velit eum, veniam eveniet earum consectetur eaque maxime? Assumenda.
+  </div>
+      </body>
+
+</html>
